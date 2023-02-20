@@ -7,6 +7,6 @@ function App() {
     <div className="App">
       asdasdad
     </div>
-}
+)}
 
 export default App;
