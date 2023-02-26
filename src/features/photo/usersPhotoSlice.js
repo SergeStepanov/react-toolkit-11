@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  usersPhoto: [],
+  usersPhotoArr: [],
 };
 
 const photoSlice = createSlice({
@@ -9,7 +9,8 @@ const photoSlice = createSlice({
   initialState,
   reducers: {
     addUsersPhoto: (state, action) => {
-      console.log(action);
+      // console.dir(action.payload);
+      state.usersPhotoArr.push(action.payload);
     }
   }
 });

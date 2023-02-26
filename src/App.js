@@ -13,7 +13,7 @@ function App() {
       <hr />
       <div>
         <p>Задача 2</p>
-        <UsersPhot />
+        <UsersPhoto />
       </div>
     </div>
   );

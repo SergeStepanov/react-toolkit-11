@@ -5,6 +5,6 @@ import photoSlice from '../features/photo/usersPhotoSlice';
 export const store = configureStore({
   reducer: {
     facts: factsSlice,
-    usersPhoto: photoSlice
+    usersPhoto: photoSlice,
   },
 });
